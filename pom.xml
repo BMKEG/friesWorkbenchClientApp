@@ -10,8 +10,8 @@
 		<relativePath>../bmkeg-as-parent</relativePath>
 	</parent>
 
-	<artifactId>digitalLibraryClientApp</artifactId>
-	<name>Bioscholar Client Application</name>
+	<artifactId>friesWorkbenchClientApp</artifactId>
+	<name>FRIES Workbench Flex Client App</name>
 	<packaging>swf</packaging>
 
 	<properties>

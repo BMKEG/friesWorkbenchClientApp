@@ -1,4 +1,4 @@
-package edu.isi.bmkeg.digitalLibraryModule.bin
+package edu.isi.bmkeg.friesWorkbench.bin
 {	
 	import edu.isi.bmkeg.digitalLibraryModule.*;
 		
@@ -8,7 +8,7 @@ package edu.isi.bmkeg.digitalLibraryModule.bin
 	
 	import org.robotlegs.utilities.modular.mvcs.ModuleContext;
 	
-	public class digitalLibraryComponentContext extends ModuleContext
+	public class friesWorkbenchComponentContext extends ModuleContext
 	{
 
 		override public function startup():void
