@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:bin="edu.isi.bmkeg.digitalLibraryModule.bin.*"
+			   xmlns:digitalLibrary="edu.isi.bmkeg.digitalLibraryModule.*"
+			   xmlns:tw="edu.isi.bmkeg.tabbedWindows.*"
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" 
+			   minWidth="955" 
+			   minHeight="600" >
+	
+	<fx:Declarations>
+		<bin:digitalLibraryComponentContext contextView="{this}" />
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import edu.isi.bmkeg.digitalLibrary.model.citations.ArticleCitation;
+			
+			public var currentArticleCitation:ArticleCitation;
+			
+		]]>
+	</fx:Script>
+	
+	<digitalLibrary:DigitalLibraryModule label="Digital Library" id="digLib" height="100%" width="100%"/>
+	
+</s:Application>
