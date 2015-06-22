@@ -37,9 +37,9 @@
 				<artifactId>flexmojos-maven-plugin</artifactId>
 				<extensions>true</extensions>
 				<configuration>
-					<sourceFile>edu/isi/bmkeg/digitalLibraryModule/bin/digitalLibraryClientApp.mxml</sourceFile>
+					<sourceFile>edu/isi/bmkeg/friesWorkbench/bin/friesWorkbenchClientApp.mxml</sourceFile>
 					<swfVersion>11</swfVersion>
-					<incremental>false</incremental> 
+					<incremental>false</incremental>
 					<compilerWarnings>
 						<warn-no-constructor>false</warn-no-constructor>
 					</compilerWarnings>
@@ -132,11 +132,11 @@
 			<type>swc</type>
 		</dependency>
 
-        <dependency>
-                <groupId>edu.isi.bmkeg</groupId>
-                <type>swc</type>
-                <artifactId>digitalLibraryClientComponents</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>edu.isi.bmkeg</groupId>
+			<type>swc</type>
+			<artifactId>friesWorkbenchClientComponents</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.robotlegs</groupId>
