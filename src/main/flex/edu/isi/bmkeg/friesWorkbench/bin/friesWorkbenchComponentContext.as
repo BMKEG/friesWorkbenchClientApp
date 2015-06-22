@@ -1,6 +1,6 @@
 package edu.isi.bmkeg.friesWorkbench.bin
 {	
-	import edu.isi.bmkeg.digitalLibraryModule.*;
+	import edu.isi.bmkeg.friesWorkbenchModule.*;
 		
 	import flash.display.DisplayObjectContainer;
 	
@@ -13,7 +13,7 @@ package edu.isi.bmkeg.friesWorkbench.bin
 
 		override public function startup():void
 		{
-			viewMap.mapType(DigitalLibraryModule);		
+			viewMap.mapType(FriesWorkbenchModule);		
 		}
 		
 	}

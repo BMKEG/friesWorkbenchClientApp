@@ -6,7 +6,7 @@
 			   xmlns:s="library://ns.adobe.com/flex/spark" 
 			   xmlns:mx="library://ns.adobe.com/flex/mx" 
 			   minWidth="955" 
-			   minHeight="600" >
+			   minHeight="600" xmlns:friesWorkbenchModule="edu.isi.bmkeg.friesWorkbenchModule.*" >
 	
 	<fx:Declarations>
 		<bin:friesWorkbenchComponentContext contextView="{this}" />
@@ -21,6 +21,6 @@
 		]]>
 	</fx:Script>
 	
-	<digitalLibrary:DigitalLibraryModule label="Digital Library" id="digLib" height="100%" width="100%"/>
+	<friesWorkbenchModule:FriesWorkbenchModule label="Digital Library" id="digLib" height="100%" width="100%"/>
 	
 </s:Application>
